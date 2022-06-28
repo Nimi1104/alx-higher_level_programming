@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# Author - Martins Akhivbareme
 
 pow = __import__('11-pow').pow
 

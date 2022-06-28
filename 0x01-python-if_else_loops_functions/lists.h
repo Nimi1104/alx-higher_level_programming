@@ -7,7 +7,6 @@
  * struct listint_s - singly linked list
  * @n: integer
  * @next: points to the next node
- * Author - Martins Akhivbareme
  * Description: singly linked list node structure
  */
 typedef struct listint_s
