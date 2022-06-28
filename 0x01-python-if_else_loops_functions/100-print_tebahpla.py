@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-
-i = 0
-for c in range(ord('z'), ord('a') - 1, -1):
-    print("{}".format(chr(c - i)), end="")
-    i = 32 if i == 0 else 0
+for alpha in range(ord('z'), ord('a') - 1, -1):
+    if alpha % 2 == 0:
+        diff = 0
+    else:
+        diff = 32
+    print('{}'.format(chr(alpha - diff)), end='')
