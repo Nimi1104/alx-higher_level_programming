@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 # 102-magic_calculation.py
-# Yovo Koffi Vianney
-
 
 def magic_calculation(a, b):
     """Match bytecode provided by Holberton School."""
