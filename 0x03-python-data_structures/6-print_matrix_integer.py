@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# Author: Martins Akhivbareme
 def print_matrix_integer(matrix=[[]]):
     for row in matrix:
         for col in row:
